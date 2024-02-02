@@ -6,5 +6,41 @@
     <link rel="stylesheet" href="/assets/styles.css" />
     <title>New Contact</title>
   </head>
-  <body></body>
+  <body class="newContact">
+    <h1>New Contact</h1>
+    <header class="newContact-header">
+      <div class="contact-circle">
+        <img
+          class="newContact-img"
+          src="/assets/img/person.svg"
+          width="128"
+          height="128"
+        />
+      </div>
+    </header>
+
+    <section class="newContact-form">
+      <div class="contact-info">
+        <img class="icon" src="/assets/img/name.svg" width="40" height="40" />
+        <h2>Name</h2>
+      </div>
+
+      <div class="contact-info">
+        <img class="icon" src="/assets/img/phone.svg" width="40" height="40" />
+        <h2>Phone</h2>
+      </div>
+
+      <div class="contact-info">
+        <img class="icon" src="/assets/img/email.svg" width="40" height="40" />
+        <h2>E-mail</h2>
+      </div>
+    </section>
+    <section class="footer-container">
+      <footer class="buttons-footer">
+        <button class="save-cancel" onclick="contacts()">Cancel</button>
+        <button class="save-cancel" onclick="contacts()">Save</button>
+      </footer>
+    </section>
+    <script src="/assets/logic.js"></script>
+  </body>
 </html>

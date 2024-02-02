@@ -1,162 +1,226 @@
 .login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: black;
-  font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: sans-serif;
 }
 
 .login-card {
-  box-shadow: 2px 2px 10px #ccc;
-  width: 300px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #e8e8e8;
-  border: 1px solid #ccc;
-  border-radius: 10px;
+    box-shadow: 2px 2px 10px #ccc;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e8e8e8;
+    border: 1px solid #ccc;
+    border-radius: 10px;
 }
 
 .card-header {
-  margin-bottom: 20px;
-  text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .card-header .log {
-  margin: 0;
-  font-size: 24px;
-  color: black;
+    margin: 0;
+    font-size: 24px;
+    color: black;
 }
 
 .form-group {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
 }
 
 label {
-  margin-bottom: 5px;
-  font-size: 18px;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 
 input[type="text"],
 input[type="password"] {
-  box-sizing: border-box;
-  width: 100%;
-  padding: 12px 20px;
-  transition: 0.5s;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    transition: 0.5s;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
 }
 
 .submit {
-  margin: 8px 0;
-  padding: 14px 20px;
-  background-color: #333;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
+    margin: 8px 0;
+    padding: 14px 20px;
+    background-color: #333;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 .submit:hover {
-  background-color: #ccc;
-  color: black;
+    background-color: #ccc;
+    color: black;
 }
 
 .contacts {
-  background-color: black;
+    background-color: black;
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
-  font-family: Roboto;
-  color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    color: white;
 }
 
 .button-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  gap: 20px;
-  margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    margin: 20px;
 }
 
 .button {
-  background-color: transparent;
-  border: none;
+    background-color: transparent;
+    border: none;
 }
 
 .button:hover {
-  background-color: #ccc;
-  cursor: pointer;
-  border-radius: 20px;
+    background-color: #ccc;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
 .my-profile {
-  display: flex;
-  flex-direction: column;
-  margin-right: 5%;
-  margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 h2,
 h3 {
-  font-family: Roboto;
-  color: white;
+    font-family: Roboto;
+    color: white;
 }
 
 .contact {
-  display: flex;
-  align-items: center;
-  background-color: #0f0f0f;
-  cursor: pointer;
-  border-radius: 50px;
-  border: none;
+    display: flex;
+    align-items: center;
+    background-color: #0f0f0f;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
 }
 
 .contact-circle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  padding: 5px;
-  background-color: #c15c23;
-  border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #c15c23;
+    border-radius: 100px;
 }
 
 .my-favorites {
-  margin-top: 2%;
-  display: flex;
-  flex-direction: column;
-  margin-right: 5%;
-  margin-left: 5%;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .favorites {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .star {
-  margin-bottom: 5px;
-  margin-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 .contacts-section {
-  margin-top: 2%;
-  display: flex;
-  flex-direction: column;
-  margin-right: 5%;
-  margin-left: 5%;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.newContact {
+    margin: 0;
+    padding-top: 1%;
+    background-color: #000000;
+}
+
+.newContact-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.newContact-img {
+    margin: 10px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    background-color: #0f0f0f;
+    cursor: text;
+    border: none;
+    border-radius: 50px;
+}
+
+.icon {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.contact-info h2 {
+    color: #747474;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.buttons-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    position: fixed;
+    bottom: 0;
+}
+
+.save-cancel {
+    padding: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    color: white;
 }

@@ -5,3 +5,7 @@ function newContact() {
 function profileUser() {
   window.location.href = "/assets/pages/profileUser.html";
 }
+
+function contacts() {
+  window.location.href = "/assets/pages/contacts.html";
+}
