@@ -6,9 +6,96 @@
     <link rel="stylesheet" href="/assets/styles.css" />
     <title>Contacts</title>
   </head>
-  <body>
-    <div>
-      <h1>Contacts</h1>
-    </div>
+  <body class="contacts">
+    <h1>Contacts</h1>
+    <nav class="button-container">
+      <button class="button" onclick="newContact()">
+        <img src="/assets/img/add.svg" />
+      </button>
+      <button class="button">
+        <img src="/assets/img/search.svg" />
+      </button>
+      <button class="button" onclick="profileUser()">
+        <img src="/assets/img/person.svg" />
+      </button>
+    </nav>
+    <section class="my-profile">
+      <h3>My Profile</h3>
+      <button class="contact" onclick="profileUser()">
+        <div class="contact-circle">
+          <img src="/assets/img/person.svg" alt="" />
+        </div>
+        <h2>Juan Galicia</h2>
+      </button>
+    </section>
+    <section class="my-favorites">
+      <div class="favorites">
+        <img
+          class="star"
+          src="/assets/img/star.svg"
+          width="30px"
+          height="30px"
+        />
+        <h3>My favorites</h3>
+      </div>
+      <button class="contact">
+        <div class="contact-circle">
+          <img src="/assets/img/person.svg" alt="" />
+        </div>
+        <h2>Melanie</h2>
+      </button>
+      <button class="contact">
+        <div class="contact-circle">
+          <img src="/assets/img/person.svg" alt="" />
+        </div>
+        <h2>Jolly</h2>
+      </button>
+      <button class="contact">
+        <div class="contact-circle">
+          <img src="/assets/img/person.svg" alt="" />
+        </div>
+        <h2>Juan</h2>
+      </button>
+    </section>
+    <section class="contacts-section">
+      <h3>Contacts</h3>
+      <button class="contact">
+        <div class="contact-circle">
+          <img src="/assets/img/person.svg" alt="" />
+        </div>
+        <h2>Jose</h2>
+      </button>
+      <button class="contact">
+        <div class="contact-circle">
+          <img src="/assets/img/person.svg" alt="" />
+        </div>
+        <h2>Ernesto</h2>
+      </button>
+      <button class="contact">
+        <div class="contact-circle">
+          <img src="/assets/img/person.svg" alt="" />
+        </div>
+        <h2>Sebastian</h2>
+      </button>
+      <button class="contact">
+        <div class="contact-circle">
+          <img src="/assets/img/person.svg" alt="" />
+        </div>
+        <h2>Melanie</h2>
+      </button>
+      <button class="contact">
+        <div class="contact-circle">
+          <img src="/assets/img/person.svg" alt="" />
+        </div>
+        <h2>Jolly</h2>
+      </button>
+      <button class="contact">
+        <div class="contact-circle">
+          <img src="/assets/img/person.svg" alt="" />
+        </div>
+        <h2>Juan</h2>
+      </button>
+    </section>
+    <script src="/assets/logic.js"></script>
   </body>
 </html>
