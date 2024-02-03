@@ -9,3 +9,7 @@ function profileUser() {
 function contacts() {
   window.location.href = "/assets/pages/contacts.html";
 }
+
+function todo() {
+  window.location.href = "/assets/pages/toDoList.html";
+}
