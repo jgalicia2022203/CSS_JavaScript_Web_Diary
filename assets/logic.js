@@ -13,3 +13,7 @@ function contacts() {
 function todo() {
   window.location.href = "/assets/pages/toDoList.html";
 }
+
+function detailContact() {
+  window.location.href = "/assets/pages/detailContact.html";
+}

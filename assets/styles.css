@@ -269,3 +269,8 @@ h3 {
 .button-todo:hover {
   cursor: pointer;
 }
+
+.detailContact-bg {
+  background-color: #000000;
+}
+
